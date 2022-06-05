@@ -50,6 +50,119 @@ header a{
     color: var(--pirmary-color);
 }
 
+.about{
+    background-color: var(--secondary-color)
+}
+
+.about h2{
+    padding: 5px 0 5px 15px;
+}
+
+.about article{
+    margin: auto;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    height: auto;
+}
+
+
+.flex-row{
+    display: flex
+}
+
+.project img{
+    max-width: 50%;
+    min-width:40%;
+
+}
+
+.projects{
+
+    width: 100%;
+    align-items: center;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project{
+    
+    flex-direction: row;
+    border: solid 10px black;
+    flex-grow: 0;
+    display: inline-flex;
+    min-width: 400;
+    max-width: 450;
+    
+    flex-wrap: wrap;
+    display: flex;
+    margin: 20px;
+    flex: 1;
+}
+
+.project-info{
+    
+    width: 200px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.resume-img{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+
+
+.contact-form input, .contact-form textarea{
+    background-color: rgba(255,255,255, 0.8);
+    border-radius: 15px;
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color:#024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.contact-form input:focus, .contact-form textarea:focus{
+    background-color: rgba(255,255,255, 1);
+    outline: none;
+}
+
+.contact-form button{
+    border-radius: 15px;
+    width: 100%;
+    border: none;
+    background: var(--primary-color);
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+}
+
+.contact-form button:hover{
+    color:var(--primary-color);
+    background: #39a6b2;
+}
+
+ /*SLIDING TEXT FEATURE
+
 .container{
     width:100%;
     height: 100%;
@@ -68,7 +181,11 @@ header a{
 }
 
 .on-top{
+    text-align: center;
     z-index: 9;
     margin: 30px;
+    width: 75%;
+    height: 75%;
     
-}
+} */
+
